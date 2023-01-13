@@ -22,7 +22,7 @@ class _ChatScreenState extends State<ChatScreen> {
   final socketStream = SocketStream();
   final _messageController = TextEditingController();
   late Socket socket;
-  List<Map<String, dynamic>> _messages = [];
+  final List<Map<String, dynamic>> _messages = [];
 
   @override
   void initState() {

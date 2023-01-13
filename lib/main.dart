@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:socket_chat/screens/chat_screen.dart';
 import 'package:socket_chat/screens/login_screen.dart';
 
 void main() {
